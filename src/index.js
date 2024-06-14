@@ -52,5 +52,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app
-reportWebVitals(console.log);
+

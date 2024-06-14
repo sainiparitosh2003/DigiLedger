@@ -1,4 +1,4 @@
-import { Container, makeStyles, Typography } from '@material-ui/core';
+import { Container, makeStyles, Typography, useMediaQuery } from '@material-ui/core';
 import React from 'react';
 import Carousel from './Carousel';
 
@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Banner = () => {
   const classes = useStyles();
+  const isDesktop = useMediaQuery('(min-width: 601px)');
 
   return (
     <div className={classes.banner}>
@@ -61,7 +62,7 @@ const Banner = () => {
             Your All-in-One Crypto Companion – Track, Compare, Succeed!
           </Typography>
         </div>
-        <Carousel />
+        {isDesktop && <Carousel />}
       </Container>
     </div>
   );
