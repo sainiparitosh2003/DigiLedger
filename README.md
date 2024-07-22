@@ -77,10 +77,6 @@ DigiLedger/
 │   │   ├── Chart.js
 │   │   ├── Dashboard.js
 │   │   └── ...
-│   ├── redux/
-│   │   ├── actions/
-│   │   ├── reducers/
-│   │   └── store.js
 │   ├── utils/
 │   │   ├── api.js
 │   │   └── ...
@@ -113,5 +109,3 @@ For any questions or feedback, feel free to contact:
 
 - **Name**: Paritosh Saini
 - **Email**: sainiparitosh6@gmail.com
-
----
